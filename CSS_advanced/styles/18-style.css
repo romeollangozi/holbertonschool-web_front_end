@@ -156,7 +156,7 @@ template{
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-marign: 0 0 3rem;
+    --nav-item-margin: 0 0 3rem;
     --nav-item-link-hover: var(--color-primary);
 }
 
@@ -199,7 +199,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
-    margin: var(--nav-item-marign);
+    margin: var(--nav-item-margin);
 }
 
 .nav .nav-link{
