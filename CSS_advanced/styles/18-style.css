@@ -154,7 +154,7 @@ template{
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
+    --nav-item-letter-spacing: 0.04ewm;
     --nav-item-display: inline-block;
     --nav-item-marign: 0 0 3rem;
     --nav-item-link-hover: var(--color-primary);
@@ -177,24 +177,9 @@ body{
     line-height: var(--line-height-base);
 }
 
-a:link{ 
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-a:visited{
-    font-style: italic;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-a:active{
-    background-color: var(--color-light-grey);
-}
-.visually-hidden{
-    display: none;
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 .navbar-menu{
@@ -224,6 +209,26 @@ a:active{
 
 .nav-link:hover{
     color: var(--nav-item-link-hover);
+}
+
+a:link{ 
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:visited{
+    font-style: italic;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    background-color: var(--color-light-grey);
+}
+.visually-hidden{
+    display: none;
 }
 
 .card-category{
@@ -267,11 +272,6 @@ a:active{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
 }
 
 .footer{
