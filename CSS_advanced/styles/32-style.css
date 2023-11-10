@@ -256,7 +256,7 @@ a:hover{
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition-property: background-color, color;
+    transition-property: background, color;
 }
 
 a:active{
